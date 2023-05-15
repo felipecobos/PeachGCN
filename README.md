@@ -8,5 +8,5 @@ The CGA is divided in two steps:
 
 With neighbors.py you will use two python libraries called pandas and itertools. Itertools is a built-in module in python and does not need to be installed. However, pandas need to be installed. You can download it from here: https://sparkbyexamples.com/pandas/install-pandas-on-windows/.
 
-With enrichment_analysis.R you will use Gene Onthology and Mapman as onthologies to perform your candidate gene analysis. Last version of Gene Onthology can be accessed through biomaRt, but for Mapman you will have to use a downloaded version. You can find MapMan Pathways version 4.2 (Thimm et al., 2004) in this repository. 
+With enrichment_analysis.R you will use Gene Onthology and Mapman as onthologies to perform your candidate gene analysis. With this script you will use five R packages called biomaRt, ClusterProfiler, dplyr, readxl and ggplot2. All these packages can be installed using the commands at the beginning of the script. Last version of Gene Onthology can be accessed through biomaRt, but for Mapman you will have to use a downloaded version. You can find MapMan Pathways version 4.2 (Thimm et al., 2004) in this repository. 
 

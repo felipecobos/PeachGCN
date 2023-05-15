@@ -6,5 +6,7 @@ The CGA is divided in two steps:
   - First, you will extract from the PeachGCN the neighbors (coexpressing genes) of your gene or genes of interest. This step is performed with a super simple python script named neighbors.py.
   - Second, you will perform a enrichment analysis using the neighbors of your gene or genes of interest using clusterProfiler. This step is even more simple, as you will run it using an R script named enrichment_analysis.R.
 
+With neighbors.py you will use two python libraries called pandas and itertools. Itertools is a built-in module in python and does not need to be installed. However, pandas need to be installed. You can download it from here: https://sparkbyexamples.com/pandas/install-pandas-on-windows/.
+
 With enrichment_analysis.R you will use Gene Onthology and Mapman as onthologies to perform your candidate gene analysis. Last version of Gene Onthology can be accessed through biomaRt, but for Mapman you will have to use a downloaded version. You can find MapMan Pathways version 4.2 (Thimm et al., 2004) in this repository. 
 

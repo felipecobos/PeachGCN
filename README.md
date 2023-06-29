@@ -14,3 +14,7 @@ With neighbors.py you will use two python libraries called pandas and itertools.
 
 With Enrichment_analysis.R you will use Gene Onthology and Mapman as onthologies to perform your candidate gene analysis. With this script you will use five R packages called biomaRt, ClusterProfiler, dplyr, readxl and ggplot2. All these packages can be installed using the commands at the beginning of the script. Last version of Gene Onthology can be accessed through biomaRt, but for Mapman you will have to use a downloaded version. You can find MapMan Pathways version 4.2 (Thimm et al., 2004) in this repository as X4.2_prunus_persica.xlsx. Additionaly, we provide the annotation of the peach genome using MapMan as MapMan_annotation.xlsx.
 
+References:
+Pérez de los Cobos, F., García-Gómez, B. E., Orduña-Rubio, L., Batlle, I., Arús, P., Matus, J. T., & Eduardo, I. (2023). First large-scale peach gene coexpression network: A new tool for predicting gene function. bioRxiv.
+
+Thimm, O., Bläsing, O., Gibon, Y., Nagel, A., Meyer, S., Krüger, P., Selbig, J., Müller, L. A., Rhee, S. Y., & Stitt, M. (2004). mapman: a user-driven tool to display genomics data sets onto diagrams of metabolic pathways and other biological processes. The Plant Journal, 37(6), 914–939. 
